@@ -13,7 +13,7 @@ class Navigation extends Component{
             </Nav.Item>;
         });
         return(
-            <Navbar bg="transparent" variant="light" expand="md" className="position-absolute px-2 w-100 z-index-100" collapseOnSelect>
+            <Navbar bg="transparent" variant="dark" expand="md" className="position-absolute px-2 w-100 z-index-100" collapseOnSelect>
                 <Navbar.Brand>
                     <Link to="/" className="font-weight-bold font-logo decoration-none text-green">
                         <img src="img/navbar_logo.png" alt="logo" className="me-2"/>                        
