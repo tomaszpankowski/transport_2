@@ -1,6 +1,5 @@
 import About from "./views/about";
 import Bike from "./views/bike";
-import Blog from "./views/blog";
 import Comingsoon from "./views/comingsoon";
 import Contact from "./views/contact";
 import Error from "./views/error";
@@ -16,7 +15,6 @@ const appCfg = {
         {navItem:true, exact:true, path:"/about",name:"About",view:<About/>},
         {navItem:true, exact:true, path:"/bike",name:"Bike",view:<Bike/>},
         {navItem:true, exact:true, path:"/support",name:"Support",view:<Support/>},
-        {navItem:true, exact:true, path:"/blog",name:"Blog",view:<Blog/>},
         {navItem:true, exact:true, path:"/contact",name:"Contact",view:<Contact/>},
         {navItem:true, exact:true, path:"/login",name:<span className="fa fa-user-circle"></span>,view:<Login backLink={{name:" Register now!",href:"/register"}}/>},
         {navItem:false, exact:true, path:"/comingsoon",name:"Comingsoon",view:<Comingsoon/>},
