@@ -1,4 +1,27 @@
 @include aoa-bg-series($bg__init,$classes_init);
+@media all and (orientation: portrait){
+    .about{
+        &-s1{
+            background-position-x: center!important;
+        }
+    }
+    .bike{
+        &-s1{
+            background-position-x: 65%!important;
+        }
+        &-s2{
+            background-position-x: 25%!important;
+        }
+    }
+    .index-s1{
+        background-position-x: 35%!important;
+    }
+    .support{
+        &-s1{
+            background-position-x: 35%!important;
+        }
+    }
+}
 
 .text{
     &-shadow{
@@ -12,7 +35,10 @@
         background-blend-mode: multiply!important;
     }
 }
-
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Marhey";
+    letter-spacing: 1px;
+}
 nav{
     z-index: 10;
 }
