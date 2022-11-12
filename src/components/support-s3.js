@@ -34,7 +34,7 @@ class SupportS3 extends Component{
                         </p>
                     </Col>
                     <Col md={1} className="d-none d-md-block mx-auto">
-                        <div class=" border-start mx-auto h-100 w-25"></div>
+                        <div className=" border-start mx-auto h-100 w-25"></div>
                     </Col>
                     <Col xs={12} md={3} className="mx-auto text-center text-md-start">
                         <p className="initialism text-white">

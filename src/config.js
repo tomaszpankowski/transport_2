@@ -30,6 +30,10 @@ const APP_LINKS = {
     users: ""
 };
 
+const msgCfg = {
+    pageSize: 10
+};
+
 const MESSAGES = {
     comingSoon:{
         title:"Starting soon",
@@ -44,5 +48,6 @@ const MESSAGES = {
 export {
     appCfg,
     APP_LINKS,
-    MESSAGES
+    MESSAGES,
+    msgCfg
 }
